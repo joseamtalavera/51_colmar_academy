@@ -6,8 +6,6 @@ body {
     color: #333;
 }
 
-
-
 /* Header styles */
 header {
     background-color: white;
@@ -15,134 +13,133 @@ header {
     padding: 20px;
     text-align: center;
     height: 64px;
-    position: relative; /* Added for positioning the logo */
+    position: relative;
 }
 
 header .logo {
-    width: 64px; /* Adjusted width of the logo */
-    height: 48px; /* Adjusted height of the logo */
+    width: 64px;
+    height: 48px;
     position: absolute;
-    left: 24px; /* Set left margin */
+    left: 24px;
     top: 50%;
-    transform: translateY(-50%); /* Center vertically */
+    transform: translateY(-50%);
 }
 
 header .logo-text {
     position: absolute;
-    left: 75px; /* Adjusted left margin to position text next to logo */
+    left: 75px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 32px; /* Set font size */
+    font-size: 32px;
 }
 
 header .logo-text .colmar {
-    color: black; /* COLMAR in black */
+    color: black;
 }
 
 header .logo-text .academy {
-    color: grey; /* ACADEMY in grey */
+    color: grey;
 }
 
 header .menu {
     position: absolute;
-    right: 24px; /* Set right margin */
+    right: 24px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 header .menu-item {
-    margin-left: 16px; /* Space between menu items */
+    margin-left: 16px;
     text-decoration: none;
     color: #333;
-    font-size: 18px; /* Increased font size */
-    line-height: 64px; /* Increased line height to match header height */
+    font-size: 18px;
+    line-height: 64px;
 }
 
-
-
 /* Hero section styles */
-
 .hero-section {
     display: flex;
     justify-content: space-between;
-    padding: 32px 24px; /* 32px top and bottom, 24px left and right */
-    background-color: #d3d3d3; /* Changed background color to lighter grey */
+    padding: 32px 24px;
+    background-color: #d3d3d3;
 }
 
 .hero-section .hero-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content horizontally */
-    margin-left: 24px; /* Ensure 24px margin from the image */
+    align-items: center;
+    margin-left: 24px;
 }
 
 .hero-content {
-    width: 100%; /* Ensure the content takes full width of the wrapper */
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content horizontally */
-    margin-bottom: 24px; /* Ensure space between content blocks */
+    align-items: center;
+    margin-bottom: 24px;
 }
 
 .hero-content-dos {
-    width: 100%; /* Ensure the content takes full width of the wrapper */
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center; /* Center the content horizontally */
-    margin-bottom: 24px; /* Ensure space between content blocks */
+    align-items: center;
+    margin-bottom: 24px;
 }
 
 .hero-content-tres {
-    width: 100%; /* Ensure the content takes full width of the wrapper */
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content horizontally */
-    margin-bottom: 24px; /* Ensure space between content blocks */
+    align-items: center;
+    margin-bottom: 24px;
 }
 
 .hero-image {
-    width: 30%; /* Image takes 30% of the width */
+    width: 30%;
     margin-right: 16px;
 }
 
 .hero-text {
-    font-size: 3rem; /* Increased font size */
+    font-size: 3rem;
     margin-bottom: 10px;
 }
+
 .hero-text-dos {
-    font-size: 2rem; /* Increased font size */
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 .sub-text {
     color: #777;
-    font-size: 1.50rem; /* Increased font size */
-    margin-bottom: 24px; /* Ensure space between p and button */
+    font-size: 1.50rem;
+    margin-bottom: 24px;
 }
+
 .sub-text-dos {
     color: #777;
-    font-size: 1.25rem; /* Increased font size */
-    margin-bottom: 24px; /* Ensure space between p and button */
+    font-size: 1.25rem;
+    margin-bottom: 24px;
 }
 
 .text-content {
-    width: 70%; /* Text content takes 70% of the width */
+    width: 70%;
 }
 
 .cta-button {
     display: inline-block;
-    padding: 20px 40px; /* Increased padding for higher button */
+    padding: 20px 40px;
     background-color: #004080;
     color: white;
     text-decoration: none;
-    margin-top: 24px; /* 24px margin from the image */
-    border-radius: 0; /* No border radius */
-    font-size: 1.25rem; /* Increased font size */
-    text-align: center; /* Center the text */
+    margin-top: 24px;
+    border-radius: 0;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 .hero-image-container {
-    width: 50%; /* Container takes 50% of the width */
+    width: 50%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -150,18 +147,19 @@ header .menu-item {
 }
 
 .hero-section .hero-image-container {
-    width: 50%; /* Container takes 50% of the width */
+    width: 50%;
 }
 
 .hero-section .hero-content {
-    width: 50%; /* Container takes 50% of the width */
+    width: 50%;
 }
 
 .hero-section .hero-content-dos {
-    width: 100%; /* Container takes 50% of the width */
+    width: 100%;
 }
+
 .hero-image-container, .hero-content {
-    width: 60%; /* Container takes 60% of the width */
+    width: 60%;
 }
 
 .white-background {
@@ -170,13 +168,13 @@ header .menu-item {
 
 .hero-image-container img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container */
+    height: auto;
+    object-fit: cover;
     display: block;
 }
 
 .hero-text-container {
-    margin-top: 16px; /* Add margin to create space between image and text */
+    margin-top: 16px;
     text-align: center;
     color: black;
 }
@@ -189,67 +187,82 @@ header .menu-item {
     margin-left: 24px;
 }
 
-
-
-
-
 /* Section styles */
-
 .section {
-    padding: 40px 24px; /* 40px top and bottom, 24px left and right */
-    background-color:white; /* Light grey background color */
+    padding: 40px 24px;
+    background-color: white;
 }
 
 .section h2 {
     text-align: center;
-    margin-bottom: 24px; /* Add some space below the heading */
+    margin-bottom: 24px;
+    font-size: 3rem;
 }
+
 .courses-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 24px; /* Space between cards */
-    padding: 0 32px; /* Add padding to match section */
-    box-sizing: border-box; /* Include padding in width calculation */
+    gap: 24px;
+    padding: 0 32px;
+    box-sizing: border-box;
     background-color: #d3d3d3;
     padding-top: 24px;
 }
 
 /* Course cards styling */
 .course {
-    flex: 0 1 calc(33.333% - 24px); /* Fit three cards per row */
-    margin-bottom: 24px; /* Add spacing between rows */
-    box-sizing: border-box; /* Include padding in width calculation */
-    background-color:white; /* White background for cards */
-    padding: 16px; /* Internal padding for content */
-    text-align: center; /* Center the content */
+    flex: 0 1 calc(33.333% - 24px);
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 16px;
+    text-align: center;
 }
 
 .course img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
+    height: auto;
+    border-radius: 8px 8px 0 0;
 }
 
 .course h3 {
-    font-size: 1.5rem; /* Adjust font size */
-    margin-top: 16px; /* Space between image and heading */
+    font-size: 1.5rem;
+    margin-top: 16px;
 }
 
 .course p {
-    font-size: 1rem; /* Adjust font size */
-    color: #777; /* Text color */
-    margin-top: 8px; /* Space between heading and paragraph */
+    font-size: 1rem;
+    color: #777;
+    margin-top: 8px;
 }
 
-
-
 /* Video section */
-
 .video-section {
     background-color: #f4f4f4;
     padding: 40px 0;
     text-align: center;
+}
+
+.video-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-section h2 {
+    margin-bottom: 24px;
+    font-size: 3rem;
+}
+
+.video-content p {
+margin-top: 10px;
+    font-size: 1rem;
+    color: #777;
 }
 
 .video-section video {
@@ -264,24 +277,99 @@ footer {
     margin-top: 30px;
 }
 
-/* Responsive */
+/* Responsive styles */
 @media (max-width: 768px) {
-    .section {
-        flex-direction: column;
-    }
-    .left-content, .right-content {
-        width: 100%;
-    }
-    .right-content {
+    header {
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .right-content div {
+        align-items: center;
+        justify-content: space-between;
         width: 100%;
-        margin-bottom: 16px;
+        padding: 0;
     }
-    .right-content img {
-        width: 100%; /* Image takes 100% of the width */
-        margin-right: 0; /* Remove margin */
+
+    header .logo {
+        width: auto;
+        height: auto;
+        max-width: 50px;
+        margin-right: 16px;
+    }
+
+    header .logo-text {
+        display: none;
+    }
+
+    header .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+    }
+
+    header .menu-item {
+        margin-left: 10px; /* Space between menu items */
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    header.menu-item {
+        margin: 8px 0;
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero-section {
+        font-size: 32px;
+        margin-bottom: 16px;
+        text-align: center;
+        width: 100%;
+     }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        font-size: 32px;
+        margin-bottom: 16px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .hero-image-container {
+        width: 100%; /* Ensure the image container takes full width */
+        margin-left: 0;
+    }
+
+    .hero-image-container img {
+        width: 100%; /* Ensure the image takes full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .hero-content-wrapper {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .courses-container {
+        padding: 0 16px;
+    }
+
+    .course {
+        flex: 0 1 100%;
+    }
+
+    .section h2 {
+        font-size: 2rem;
+    }
+
+    .video-content {
+        padding: 10px;
+    }
+
+    .video-section h2 {
+        font-size: 2rem;
     }
 }
