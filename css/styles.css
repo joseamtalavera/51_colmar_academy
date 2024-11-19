@@ -1,3 +1,5 @@
+/* CSS Styles for the Colmar Academy project */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -279,68 +281,48 @@ footer {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+    /* Header adjustments */
     header {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
-        padding: 0;
+        padding: 10px 16px;
     }
 
     header .logo {
-        width: auto;
-        height: auto;
         max-width: 50px;
-        margin-right: 16px;
+        height: auto;
     }
 
     header .logo-text {
-        display: none;
+        display: none; /* Hide logo text to save space */
     }
 
     header .menu {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        width: auto;
     }
 
     header .menu-item {
-        margin-left: 10px; /* Space between menu items */
-        text-decoration: none;
-        color: #333;
-        font-size: 18px;
-        line-height: 24px;
+        margin-left: 10px;
+        font-size: 14px; /* Adjust font size for smaller screens */
     }
 
-    header.menu-item {
-        margin: 8px 0;
-        text-decoration: none;
-        color: #333;
-        font-size: 18px;
-        line-height: 24px;
-    }
-
+    /* Hero Section adjustments */
     .hero-section {
-        font-size: 32px;
-        margin-bottom: 16px;
-        text-align: center;
-        width: 100%;
-     }
-
-    .hero-section {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 32px;
-        margin-bottom: 16px;
-        text-align: left;
-        width: 100%;
+        justify-content: center;
+        width: 100%; /* Ensure full width */
+        padding: 32px 0; /* Remove extra horizontal padding */
+        background-color: #d3d3d3;
+        box-sizing: border-box; /* Include padding in width calculation */
     }
 
-    .hero-image-container {
-        width: 100%; /* Ensure the image container takes full width */
-        margin-left: 0;
+    .hero-section .hero-image-container {
+        width: 100%; /* Ensure full width */
     }
 
     .hero-image-container img {
@@ -348,28 +330,92 @@ footer {
         height: auto; /* Maintain aspect ratio */
     }
 
+    .hero-section .hero-content {
+        width: 100%; /* Ensure the container and content take full width */
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .hero-content  .hero-text {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        
+    }
+
+    .hero-content .sub-text {
+        font-size: 1.25rem; /* Adjust font size for smaller screens */
+        padding: 0 16px; /* Add padding to the sides */
+    }
+
+    .hero-section .white-background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Ensure full width */
+        padding: 32px 0; /* Remove extra horizontal padding */
+        background-color: #d3d3d3;
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+
+    .hero-content-tres {
+        width: 100%; /* Ensure the container and content take full width */
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .hero-content-tres .hero-text {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        
+    }
+
+    .hero-content-tres .sub-text {
+        font-size: 1.25rem; /* Adjust font size for smaller screens */
+        padding: 0 16px; /* Add padding to the sides */
+    }
+
     .hero-content-wrapper {
         width: 100%;
-        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content-dos {
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .hero-image {
+        width: 100%; /* Ensure the image takes full width */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 16px; /* Space between image and text */
+    }
+
+    /* Courses Section adjustments */
+
+    .section {
+        width: 100%; /* Ensure the section takes full width */
+        background-color: white;
+        padding: 24px 0; /* Adjust vertical padding */
     }
 
     .courses-container {
-        padding: 0 16px;
+        display: flex;
+        flex-direction: column; /* Stack courses vertically */
+        align-items: center;
+        width: 100%; /* Ensure the container takes full width */
+        gap: 24px; /* Space between courses */
     }
 
-    .course {
-        flex: 0 1 100%;
-    }
+    /* Section title */
+    
+    /* Video Section adjustments */
+    
 
-    .section h2 {
-        font-size: 2rem;
-    }
-
-    .video-content {
-        padding: 10px;
-    }
-
-    .video-section h2 {
-        font-size: 2rem;
-    }
+   
 }
